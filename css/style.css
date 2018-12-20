@@ -1,0 +1,130 @@
+body, html{
+    background-color: #ebebeb;
+    font-family: 'Lato', sans-serif;
+    color: #7d7d7d;
+}
+.bloc{
+    background-color: white;
+    width: 35vw;
+    margin: 2em auto;
+    padding: 4em;
+    display: flow-root;
+}
+.bloc .photo{
+padding: 0 2em;
+text-align: center;
+}
+.bloc .photo img{
+    width: 130px;
+   border-radius: 50%;
+   border: #d3d3d3 5px solid;
+}
+.heading, .sub-heading{
+    text-align: center;
+    font-weight: bold;
+}
+.heading{
+    color: 	#dd5555;
+    font-size: 2em;
+}
+.sub-heading{
+ font-size: 1.2em;
+}
+.para{
+    text-align: justify;
+}
+.link{
+    margin: 0 auto;
+    width: 230px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #dd5555;
+    text-align: center;
+}
+.link a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.3em;
+    line-height: 2em;
+
+}
+.pad-nil{
+    padding:0 ;
+}
+.social{margin: 0 auto;}
+.social ul{ list-style: none; padding: 0; margin: 0;}
+.social ul li{ 
+    position: relative;
+    float: left;
+    color: #cccccc;
+    padding: 1em;
+    text-align: center;
+    width: 25%;
+    font-size: 1em;
+}
+.social ul li i{
+    font-size: 2em;
+    padding: 0.2em;
+}
+.box-s, .box-m{
+    position: relative;
+    float: left;
+}
+.box-m{
+    width: 75%;
+}
+.box-s{ width: 25%}
+.box-s img{
+    padding: 2em 0;
+    width: 100px;
+}
+@media only screen and (max-width: 1100px) and (min-width: 600px) {
+    .social ul li {
+        width: 20%;
+    padding: 6%;}
+    .box-m {
+        width: 100%;
+    }
+    .box-s img {
+        padding: 2em 100%;
+    }
+  }
+  @media only screen and (max-width: 600px) and (min-width: 300px) {
+    .bloc .photo {
+        padding: 0;
+    }
+    
+.heading {
+    font-size: 1.5em;
+}
+.sub-heading {
+    font-size: 1em;
+}
+.para {
+    font-size: 0.9em;
+}
+.link {
+    width: 130px;
+    height: 30px;
+}
+.link a {
+    font-size: 0.9em;
+}
+.social ul li i {
+    font-size: 1.5em;
+}
+    .social ul li {
+        width: 20%;
+    padding: 6%;}
+    .box-m {
+        width: 100%;
+    }
+    .box-s img {
+        padding: 2em 100%;
+    }
+    .res{
+        padding: 0em;
+        width: 70vw;
+    }
+    }
+  }
